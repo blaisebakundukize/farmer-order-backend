@@ -1,6 +1,6 @@
 import { Schema, model, Document } from 'mongoose';
 
-interface IFarmer extends Document {
+export interface IFarmer extends Document {
   user: Schema.Types.ObjectId;
   landSize: number;
 }
